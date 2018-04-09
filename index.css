@@ -4,10 +4,12 @@
     /* main-axis left to right :::: cross-axis top to bottom */
     /* flex-direction: row; */
     /* main-axis top to bottom :::: cross-axis left to right */
-    /* flex-direction: column; */
-    /* justify-content: flex-end; */ /* main-axis */
-    height: 100%;
-    align-items: center; /* cross-axis */
+    flex-direction: column;
+    /* main-axis */
+    justify-content: flex-end; 
+    height: 50%;
+    /* cross-axis */
+    align-items: flex-end;   
 }
 
 /*
@@ -46,11 +48,11 @@
 .logout {
     flex: 1;
 } */
-
+/* 
 .logout {
     align-self: flex-start;
 }
 
 .home {
     align-self: flex-end;
-}
+} */
