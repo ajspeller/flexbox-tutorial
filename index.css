@@ -2,7 +2,17 @@
     border: 5px solid #ffcc5c;
     display: flex;
     /* main-axis left to right :::: cross-axis top to bottom */
-    flex-direction: row; 
+    flex-direction: row;
     /* main-axis top to bottom :::: cross-axis left to right */
-    flex-direction: column;
-  }
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+}
+
+/*  justify-content:
+    flex-start 
+    flex-end 
+    center 
+    space-around
+    space-between 
+    space-evenly 
+*/
