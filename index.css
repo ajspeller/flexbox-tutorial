@@ -17,6 +17,25 @@
     space-evenly 
 */
 
-.home {
+/* .home {
     margin-right: auto;
+} */
+
+
+/* 
+    flex-grow
+    flex-shrink
+    flex-basis
+*/
+
+/* .search {
+    flex: 1;
+} */
+
+.home {
+    flex: 1;
+}
+
+.logout {
+    flex: 1;
 }
