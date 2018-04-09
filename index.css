@@ -4,13 +4,19 @@
     /* main-axis left to right :::: cross-axis top to bottom */
     /* flex-direction: row; */
     /* main-axis top to bottom :::: cross-axis left to right */
-    flex-direction: column;
+    /* flex-direction: column; */
     /* main-axis */
-    justify-content: flex-end; 
-    height: 50%;
+    /* justify-content: flex-end;  */
+    /* height: 50%; */
     /* cross-axis */
-    align-items: flex-end;   
+    /* align-items: flex-end;    */
+    flex-wrap: wrap
 }
+
+/* flex-wrap
+    nowrap
+    wrap
+*/
 
 /*
     flex-start
@@ -56,3 +62,7 @@
 .home {
     align-self: flex-end;
 } */
+
+.container > div {
+    width: 300px;
+}
