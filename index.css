@@ -10,7 +10,7 @@
     /* height: 50%; */
     /* cross-axis */
     /* align-items: flex-end;    */
-    flex-wrap: wrap
+    /* flex-wrap: wrap */
 }
 
 /* flex-wrap
@@ -36,24 +36,32 @@
     margin-right: auto;
 } */
 
-
 /* 
-    flex-grow
-    flex-shrink
-    flex-basis
+    flex-grow .. if extra space is available, its the amount of increase per element
+    flex-shrink .. if extra space is available, its the amount of reduction per element
+    flex-basis .. the base width of an element
 */
 
 /* .search {
     flex: 1;
 } */
 
-/* .home {
-    flex: 1;
+.home {
+    /* flex: 1; */
+    /* flex: 1 1 0; */
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
 }
 
-.logout {
-    flex: 1;
-} */
+.search {
+    /* flex: 1; */
+    /* flex: 1 1 0; */
+    flex-grow: 10;
+    flex-shrink: 1;
+    flex-basis: 200px;  
+}
+
 /* 
 .logout {
     align-self: flex-start;
@@ -63,6 +71,6 @@
     align-self: flex-end;
 } */
 
-.container > div {
+/* .container > div {
     width: 300px;
-}
+} */
