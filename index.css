@@ -13,8 +13,9 @@
     /* flex-wrap: wrap */
 }
 
+/* the larger the number the farther right */
 .item1{
-    order: -1;
+    order: -1; 
 }
 .item2 {
     order: -2;
